@@ -7,7 +7,7 @@ import { CookieJar } from "tough-cookie";
 import { wrapper as axiosCookieJarSupport } from "axios-cookiejar-support";
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = "3001";
 
 const SUPERSET_DOMAIN = `https://supersettest-superset.dev.indocpilot.io`;
 const SUPERSET_SERVICE_ACCOUNT_USERNAME =
